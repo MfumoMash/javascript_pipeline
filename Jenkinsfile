@@ -18,7 +18,7 @@ pipeline {
                 
                 withSonarQubeEnv('sonarqube'){
 
-                    sh "C:\scanner\sonar-scanner-4.4.0.2170\bin\sonar-scanner"
+                    sh "C:/scanner/sonar-scanner-4.4.0.2170/bin/sonar-scanner"
           
                     }
 
